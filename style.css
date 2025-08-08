@@ -1,0 +1,221 @@
+*{
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+#allParent{
+    display: flex;
+    height: 50px;
+    width: 350px;
+    justify-content: space-between;
+    align-items: center;
+}
+#search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#input{
+    height: 38px;
+    width: 250px;
+    outline: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: antiquewhite;
+    padding-left: 20px;
+}
+#submit0{
+    height: 38px;
+    width:50px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+#form0{
+    display: flex;
+    border:1px solid sandybrown;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+.cros{
+    background-color: rgb(63, 54, 54);
+    height: 40px;
+    width: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    border-radius: 0px 8px 8px 0px;
+}
+#bar{
+    height: 40px;
+    width:40px;
+    background-color: rgb(102, 91, 91);
+    border-radius: 8px;
+    margin-block:4px 5px;
+
+
+}
+#icon{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:wheat;
+}
+.icon1{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#note1{
+    height: 90%;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    overflow: scroll;
+}
+
+#note{
+    height: 540px;
+    width: 350px;
+    background-color: rgba(226, 233, 130, 0.562);
+    border-radius: 10px;
+    user-select: none;
+}
+#noteDegin{
+    height: 50px;
+    width: 100%;
+    background-color:rgba(175, 146, 102, 0.836);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#menu{
+    background-color: rgb(194, 179, 179);
+    height: 540px;
+    width: 350px;
+    border: 3px solid black;
+    border-radius: 10px;
+    overflow: scroll;
+    scrollbar-width: none; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    position:absolute;
+    left: -350px;
+}
+.button{
+    height: 40px;
+    width:300px;
+    margin: 4px;
+    border:2px solid black; 
+    border-radius: 5px;
+}
+#parent{
+    display: flex;
+    justify-content: space-between;
+}
+#allInput{
+    height: 500px;
+    width: 70%;
+    border-radius: 15px;
+    background-color: rgba(163, 159, 103, 0.267);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#form{
+    height: 100px;
+    width: 80%;
+    background-color: rgba(24, 20, 20, 0.849);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#outPut{
+    height: 200px;
+    width: 80%;
+    background-color: rgba(133, 143, 72, 0.877);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#value{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    padding-inline: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#submit{
+    height: 40px;
+    width: 10%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#text{
+    font-size: 30px;
+    user-select: none;
+    color:red;
+}
+#ans{
+    height: 40px;
+    width: 70%;
+    background-color: wheat;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#finalAns{
+    height: 60px;
+    width: 90%;
+    overflow: scroll;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.newClass{
+    position:absolute;
+    top:80PX;
+    left:10px;
+    max-height: 300px;
+    width: 500px;
+    overflow: auto;
+    background-color: rgba(179, 196, 30, 0.801);
+    z-index: 100;
+    border-radius: 10px;
+}
+.newClass1{
+    width: 450px;
+    height: 30px;
+    padding:5px 0px 0px 5px;
+    background-color: rgba(119, 179, 23, 0.096);
+    list-style-type:decimal-leading-zero;
+    list-style-position: inside;
+    margin: 5px;
+    border-radius: 10px;
+}
+.newClass1:hover{
+    background-color: rgba(179, 196, 30, 0.801);
+}
